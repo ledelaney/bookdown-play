@@ -23,7 +23,7 @@ link-citations: yes
 
 # Prerequisites
 
-<span class="marginnote">Blue text, while also a widely recognizable clickable-text indicator, is crass and distracting. Luckily, it is also rendered unnecessary by the use of underlining.</span> 
+.margin-note[Blue text, while also a widely recognizable clickable-text indicator, is crass and distracting. Luckily, it is also rendered unnecessary by the use of underlining.]s
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
@@ -31,6 +31,7 @@ The **bookdown** package can be installed from CRAN or Github:
 
 ```{r eval=FALSE}
 install.packages("bookdown")
+install.packages("tufte")
 # or the development version
 # devtools::install_github("rstudio/bookdown")
 ```
