@@ -7,9 +7,11 @@ cover-image: "image/image.png"
 github-repo: ledelaney/arepo
 description: "Slogging through materials."
 site: bookdown::bookdown_site
-theme: false
 output:
-  bookdown::html_chapters:
+  bookdown::html_book:
+    rmd_files: ["index.Rmd", "intro.Rmd"]
+    theme: NULL
+    template: ["templates/template2.html"]
     toc: no
     includes:
       in_header: ["templates/myheader.html"]
